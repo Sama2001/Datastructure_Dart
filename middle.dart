@@ -1,3 +1,5 @@
+
+//////////////find middle////////
 import 'dart:io';
 
 
@@ -61,8 +63,8 @@ void main() {
 
   test.Printing();
 
-  Node? middleNode = test.Middle();
-  print("\n// middle is ${middleNode?.value }");
+  Node? middle = test.Middle();
+  print("\n// middle is ${middle?.value }");
       print("-------------------------------"); 
 
 }

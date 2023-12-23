@@ -32,8 +32,10 @@ String BalanceChecker(String input) {
       BalanceCheckerStack.pop();
     }
   }
-
-  return BalanceCheckerStack.isEmpty ? "Balanced" : "Not balanced"; 
+  if(BalanceCheckerStack.isEmpty ){
+return  "Balanced" ;
+  }
+  return "Not balanced"; 
 }
 
 void main() {
